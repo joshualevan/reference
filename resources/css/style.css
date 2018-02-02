@@ -2,6 +2,56 @@ body {
   font-family: Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #2c3237;
-  background-color: #06141e;
+  color: #ffffff;
+  background-color: #193345;
+  list-style: none;
+}
+
+.container {
+  background-color: #204056;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 900px;
+  height: 3000px;
+  overflow: hidden;
+}
+
+header {
+  padding: 30px;
+  position: fixed;
+  background-color: rgba(14, 28, 38, 0.95);
+  width: 840px;
+}
+
+section {
+  padding: 0px 30px;
+}
+
+.top {
+  margin-top: 220px;
+}
+
+h1, h2, h3 {
+  color: #7a98a9;
+}
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  opacity: 0.5;
+}
+
+a {
+  color: #ffffff;
+}
+
+header a {
+  color: #df5a23;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+header a:hover {
+  color: #ff6c00;
 }
