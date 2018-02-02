@@ -4,7 +4,6 @@ body {
   padding: 0;
   color: #ffffff;
   background-color: #193345;
-  list-style: none;
 }
 
 .container {
@@ -30,10 +29,19 @@ section {
 section::before {
   display: block;
   content: " ";
-  margin-top: -200px;
-  height: 200px;
+  margin-top: -220px;
+  height: 220px;
   visibility: hidden;
   pointer-events: none;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+li span {
+  color: yellow;
 }
 
 .top {
