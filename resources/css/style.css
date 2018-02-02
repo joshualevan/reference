@@ -27,6 +27,15 @@ section {
   padding: 0px 30px;
 }
 
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -200px;
+  height: 200px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .top {
   margin-top: 220px;
 }
